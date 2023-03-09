@@ -21,10 +21,9 @@ header h1 {
 
     header h2 {
 position: absolute;
-width: 532px;
 height: 100px;
-left: calc(50% - 532px/2 + 109px);
-top: calc(50% - 100px/2 - 52px);
+left: calc(50% - 532px/2 + 1px);
+top: calc(50% - 100px/2 - 1px);
 
 font-family: cursive;
 font-style: normal;
