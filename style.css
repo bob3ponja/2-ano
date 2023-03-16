@@ -1,37 +1,93 @@
 header h1 {
+position: absolute;
+width: -3989px;
+height: 62.01px;
+left: -760px;
+top: 700px;
+background: #5EC8AE;
+transform: matrix(0, 1, -1, 0, 0, 0);
 
-    position: absolute;
-    width: -4000px;
-    height: 62.01px;
-    left: -760px;
-    top: 700px;
-    background: #5EC8AE;
-    transform: matrix(0, 1, -1, 0, 0, 0);
-    }
+}
 
-    img {
-      position: absolute;
-      width: 202px;
-      height: 198px;
-      left: 132px;
-      top: 97px;
-      background: url(Foto-99.png);
-      border-radius: 50%;
-    }
+header img {
+position: absolute;
+width: 170px;
+height: 170px;
+left: 72px;
+top: 10px;
+background: url(Foto-99.png);
+border-radius: 50%;
+}
 
-    header h2 {
+header h2 {
 position: absolute;
 height: 100px;
-left: calc(50% - 532px/2 + 1px);
-top: calc(50% - 100px/2 - 1px);
-
+left: calc(50% - 532px/2 + 100px);
+top: calc(50% - 100px/2 - 300px);
 font-family: cursive;
 font-style: normal;
 font-weight: 400;
-font-size: 95px;
+font-size: 55px;
 line-height: 119px;
-
 color: #000000;
-
 mix-blend-mode: normal;
-    }
+}
+
+.inicio {
+position: absolute;
+height: 100px;
+left: calc(50% - 532px/2 + 50px);
+top: calc(50% - 100px/2 - 200px);
+font-family: cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 119px;
+color: #000000;
+mix-blend-mode: normal;
+}
+
+.galeria {
+
+position: absolute;
+height: 100px;
+left: calc(50% - 532px/2 + 250px);
+top: calc(50% - 100px/2 - 200px);
+font-family: cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 119px;
+color: #000000;
+mix-blend-mode: normal;
+}
+
+.contato {
+
+position: absolute;
+height: 100px;
+left: calc(50% - 532px/2 + 450px);
+top: calc(50% - 100px/2 - 200px);
+font-family: cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 119px;
+color: #000000;
+mix-blend-mode: normal;
+  
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	font-size: 30px;
+	text-decoration: underline;
+}
